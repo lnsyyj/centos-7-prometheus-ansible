@@ -1,0 +1,7 @@
+---
+
+- hosts:
+  - node-exporter
+
+  gather_facts: true
+
