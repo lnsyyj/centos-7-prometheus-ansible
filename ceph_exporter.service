@@ -1,0 +1,8 @@
+[Unit]
+Description=Ceph Exporter
+After=network.target
+[Service]
+User=root
+ExecStart=/home/prometheus/ceph_exporter
+[Install]
+WantedBy=multi-user.target
